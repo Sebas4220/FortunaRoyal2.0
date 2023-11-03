@@ -164,17 +164,17 @@ background-size: cover;
     width: 200px;
     height: 200px;
     transform-style: preserve-3d;
-    animation: rotate 50s linear infinite;
+    animation: rotate 40s linear infinite;
 
 }
 
 @keyframes rotate {
     0% {
-    transform: perspective(2000px) rotateY(0deg);
+    transform: perspective(3000px) rotateY(0deg);
     }
 
     100% {
-    transform: perspective(2000px) rotateY(360deg);
+    transform: perspective(3000px) rotateY(360deg);
     }
 }
 
@@ -210,11 +210,17 @@ background-size: cover;
 
 
 #juegos{
-padding: 40px;
+padding-top: 50px;
 height: 100%;
 display: flex;
 align-items: center;
 justify-content: center;
 overflow: hidden;
+
+}
+
+
+#acciones:hover{
+    transform: translateY(-10px) scale(1);
 
 }
