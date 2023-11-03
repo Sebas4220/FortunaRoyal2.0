@@ -220,15 +220,82 @@ overflow: hidden;
 }
 
 
-#Juegos{
 
-padding-top: 30px;
-padding-bottom: 30px;
-
-}
 
 
 #acciones:hover{
     transform: translateY(-10px) scale(1);
 
 }
+
+
+.slider-container{
+
+    width: 100%;
+    margin: 2rem auto;
+    display: grid;
+    padding: 10px;
+    grid-auto-flow: column;
+    column-gap: 1.5rem;
+    overflow: auto;
+
+}
+
+.slider-container::-webkit-scrollbar{
+
+display: none;
+
+
+}
+
+
+
+.slider-item{
+margin: 0;
+position: relative;
+width: 100%;
+height: 100%;
+border-radius: 20px;
+animation: slider 20s linear infinite;
+
+}
+
+.slider-item img{
+width: 160px;
+height: 210px;
+object-fit: fill;
+border-radius: 20px;
+transition: all .4s ease-in-out;
+cursor: pointer;
+}
+
+
+.slider-item img:hover{
+
+transform: translateY(-10px) scale(1);
+
+}
+
+
+@keyframes slider{
+    0%{transform: translateX(0);}
+    10%{transform: translateX(0)}
+
+    15%{transform: translateX(-110%)}
+    30%{transform: translateX(-110%)}
+
+    35%{transform: translateX(-225%)}
+    50%{transform: translateX(-225%)}
+
+    55%{transform: translateX(-110%)}
+    70%{transform: translateX(-110%)}
+
+    75%{transform: translateX(0)}
+    90%{transform: translateX(0)}
+
+    95%{transform: translateX(0)}
+    100%{transform: translateX(0)}
+
+
+}
+
