@@ -220,6 +220,14 @@ overflow: hidden;
 }
 
 
+#Juegos{
+
+margin-top: 30px;
+margin-bottom: 30px;
+
+}
+
+
 #acciones:hover{
     transform: translateY(-10px) scale(1);
 
