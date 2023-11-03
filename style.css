@@ -304,6 +304,7 @@ footer{
 
 background-image: url(./imagenes/venezuela-footer-051698795351___responsive_1366_3941.png);
 background-size: cover;
+margin-top: 20px;
 
 }
 
@@ -319,7 +320,7 @@ margin: 0;
 
 #footer .card{
 
-background-color: #303030;
+background-color: #333333;
 border-radius: 0;
 border: none;
 }
