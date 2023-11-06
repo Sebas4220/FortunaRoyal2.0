@@ -74,9 +74,13 @@ border-radius: 40px;
 #nav-link{
 
 color: white;
-
 }
 
+#nav-link i{
+
+padding-right: 7px;
+
+}
   
 #nav-link:hover{
 
