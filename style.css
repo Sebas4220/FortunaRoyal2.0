@@ -62,6 +62,14 @@ background-color: #333333;
 .dropdown-menu:active{
 
     border: none;
+    box-shadow: none;
+
+}
+
+.dropdown-menu:focus{
+
+    border: none;
+    box-shadow: none;
 
 }
 
