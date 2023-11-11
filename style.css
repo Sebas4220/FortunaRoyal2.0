@@ -57,6 +57,14 @@ color: white;
 background-color: #333333;
 }
 
+
+
+.dropdown-menu:active{
+
+    border: none;
+
+}
+
 .dropdown-item{
 
 color: white;
