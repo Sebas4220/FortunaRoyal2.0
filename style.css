@@ -73,6 +73,20 @@ background-color: #333333;
     background: none;
 }
 
+.dropdown-menu::after{
+
+    border: none;
+    box-shadow: 0px 0px 7px #00ff88;
+    background: none;
+}
+
+.dropdown-menu::selection{
+
+    border: none;
+    box-shadow: 0px 0px 7px #00ff88;
+    background: none;
+}
+
 .dropdown-item{
 
 color: white;
@@ -418,7 +432,14 @@ color: #00ff88;
 
 
 
+input .form-control:focus{
 
+    box-shadow: 0px 0px 7px #00ff88;
+    background-color: transparent;
+    border: none;
+    color: #00ff88;
+
+}
 
 
 

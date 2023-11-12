@@ -21,7 +21,45 @@
     <nav class="navbar navbar-expand-lg"  style="margin: 0; padding: 0; border: 0;">
   
         <div class="container-fluid" id="container" >
-            <a class="" href="#"><img src="./Logo.png" width="250px"></a>
+            <a class="d-lg-block d-sm-none d-md-none d-none" href="#"><img src="./Logo.png" width="250px"></a>
+            <a class="d-lg-none d-sm-block d-md-block" href="#"><img src="./LogoMovil1.png" width="40px"></a>
+
+            <a class="nav-link d-lg-none d-sm-block d-md-block"  aria-current="page" href="#"  id="registratee" type="button"  data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="bi bi-person-plus-fill" style="margin-right: 7px;"></i>Deposito</a>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" >
+                <div class="modal-content" style="background-color: #333333; border-radius: 40px;">
+                    <div class="modal-header" style="border-bottom: 2px #00ff88 solid; ">
+                    <h1 class="modal-title fs-4" id="exampleModalLabel" >Deposito</h1>
+                    <img src="./imagenes/Cerrar.png" alt="" width="40px" type="button" data-bs-dismiss="modal" aria-label="Close">
+                    </div>
+                    <div class="modal-body">
+                        <div class="container">
+                            <div class="row" style="padding-top: 10px;">
+                                <div class="col-12">
+                                    <h3 style="font-size: 30px; padding-bottom: 10px;">Wallet</h3>
+                                </div>
+                                <div class="col-12">
+                                    <input class="form-control" type="text" style="background-color: transparent; border: 2px solid #00ff88; border-radius: 15px; text-align: center; color: white; padding: 10px ; box-shadow: inset 0px 0px 5px #00ff88;" value="https://fortunaroyal.com/register?r=MIC17D251C4C0EB7" aria-label="Disabled input example" disabled readonly>
+                                </div>
+                                <div class="col-12" style="padding-top: 10px;">
+                                    <p><i class="bi bi-clipboard-check-fill" style="font-size: 30px;"></i>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    </div>
+                    </div>
+                </div>
+
+
+                
+
+                <a class="nav-link d-lg-none d-sm-block d-md-block"  style=" border: 2px #ffffff solid ; border-radius: 15px;color: #ffffff; font-size: 15px; padding: 7px; margin-left: 8px;">Bs.s 1000,00</a>
+
+
             <img src="./imagenes/Menu.png" alt="" width="70px" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation"class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
               
               <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
@@ -53,11 +91,11 @@
                           <li><a class="dropdown-item" href="#">Cofre Royal</a></li>
                       </ul>
                     </li>
-              <li class="nav-item" style="padding: 0.5px;"  >
-                <a class="nav-link" aria-current="page" href="#"  id="registrate" >Deposito</a>
+              <li class="nav-item" style="padding: 0.5px; text-align: center;"  >
+                <a class="nav-link d-lg-block d-sm-none d-md-none d-none" aria-current="page" href="#"  id="registrate" type="button"  data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="bi bi-person-plus-fill" style="margin-right: 7px;"></i>Deposito</a>
             </li>
               <li class="nav-item" style="padding: 0.5px;">
-                <a class="nav-link" aria-current="page" href="disabled"  style=" border: 2px #ffffff solid ; border-radius: 15px;color: #ffffff; margin-left: 10px;padding: 10px;">Bs.s 1000,00</a>
+                <a class="nav-link d-lg-block d-sm-none d-md-none d-none" aria-current="page"   style=" border: 2px #ffffff solid ; border-radius: 15px;color: #ffffff; margin-left: 10px;padding: 10px;">Bs.s 1000,00</a>
                 
               </li>
             </ul>
@@ -68,17 +106,17 @@
     <header>
         <div class="container">
             <div class="row">
-                <div class="col-lg-3" style="margin-top: 30px ; margin-bottom: 30px ; ">
-                    <div class="card" style="border-radius: 30px; background-color: #333333;">
+                <div class="col-lg-3" style="margin-top: 30px ; margin-bottom: 30px ;">
+                    <div class="card" style="border-radius: 30px; background-color: #333333; ">
                         <div class="card-body" >
                             <div class="container">
                                 <div class="row" >
                                     <div class="col" style="text-align: center; color: white;">
                                         <img src="./imagenes/Perfil.png" width="100%" alt="">
-                                        <p>Membresía: Premium</p>
+                                        <p style="margin-top: 15px;"><i class="bi bi-star-fill" style="margin-right: 7px;"></i>Membresía: Premium</p>
                                     </div>
                                 </div>
-                                <div class="row" style="margin-top: 10px ; margin-bottom: 10px ;">
+                                <div class="row" style="margin-top: 0px ; margin-bottom: 10px ;">
                                     <div class="col-12" style=" text-align: center; margin-top: 10px; background-color: #00ff88; color: black; border-radius: 20px; padding: 15px; width: 100%;" >
                                         <a class="nav-link" href="./historial.html"><i class="bi bi-clock-history" style="padding-right: 5px;"></i>Historial</a>
                                     </div>
@@ -108,84 +146,143 @@
                             <div class="container">
                                 <div class="row" style="padding-top: 15px; ">
                                     <div class="col" style="text-align: left; padding: 10px; color: white;">
-                                        <p>Usuario:</p>
+                                        <p><i  class="bi bi-person-fill" style="padding-right: 7px;"></i>Usuario:</p>
                                     </div>
                                     <div class="col">
-                                        <a class="nav-link" href="" style="background-color: transparent; padding: 10px; border: 2px solid #00ff88; border-radius: 15px; box-shadow: inset 0px 0px 5px #00ff88; color: #ffffff; text-align: center; ">Deposito</a>
+                                            <a class="nav-link" aria-current="page" href="#"  type="button"  data-bs-toggle="modal" data-bs-target="#exampleModal" style="background-color: transparent; padding: 10px; border: 2px solid #00ff88; border-radius: 15px; box-shadow: inset 0px 0px 5px #00ff88; color: #ffffff; text-align: center; "><i class="bi bi-box-arrow-in-left" style="margin-right: 6px;"></i>Deposito</a>
+                                      
                                     </div>
                                 </div>
-                                <div class="row" style="padding-top: 15px;  border-bottom: 2px solid #00ff88;">
-                                    <div class="col" style="text-align: left; padding: 10px; color: white;">
-                                        <p>Correo:</p>
+                                <div class="row" style="padding-top: 15px;  border-bottom: 2px solid #00ff88; padding-bottom: 20px;">
+                                    <div class="col" style="text-align: left;  color: white;">
+                                        <p><i class="bi bi-envelope-at-fill" style="padding-right: 7px;"></i>Correo:</p>
                                     </div>
-                                    <div class="col">
-                                        <a class="nav-link" href="" style="background-color: transparent; padding: 10px; border: 2px solid #00ff88; border-radius: 15px; box-shadow: inset 0px 0px 5px #00ff88; color: #ffffff; text-align: center; ">Retiro</a>
+                                    <div class="col" style="text-align: center;">
+                                        <a class="nav-link" aria-current="page" href="#" type="button"  data-bs-toggle="modal" data-bs-target="#exampleModal1" style="background-color: transparent; padding: 10px; border: 2px solid #00ff88; border-radius: 15px; box-shadow: inset 0px 0px 5px #00ff88; color: #ffffff; text-align: center; "><i class="bi bi-box-arrow-in-right" style="margin-right: 7px;"></i>Retiro</a>
+                                    
+
+                                        <!-- Modal -->
+                                        <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog" >
+                                            <div class="modal-content" style="background-color: #333333; border-radius: 40px; color: #ffffff;">
+                                                <div class="modal-header" style="border-bottom: 2px #00ff88 solid; ">
+                                                <h1 class="modal-title fs-4" id="exampleModalLabel" >Retiro</h1>
+                                                <img src="./imagenes/Cerrar.png" alt="" width="40px" type="button" data-bs-dismiss="modal" aria-label="Close">
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div class="container">
+                                                        <div class="row" style="padding-top: 10px;">
+                                                            
+                                                            <div class="col-12">
+                                                                <p style="color: #00ff88;">Monto Disponible: Bs.s 1000,00</p>
+                                                            </div>
+                                                            <div class="col-12" style="padding-top: 10px;">
+                                                                <p>Wallet</p>
+                                                                <input class="form-control" type="text" name="cantidad" style="background-color: transparent; border: 2px solid #00ff88; border-radius: 20px; padding: 10px ; box-shadow: inset 0px 0px 10px #00ff88; font-size: 20px; ">
+                                                            </div>
+                                                            <div class="col-12" style="padding-top: 10px;">
+                                                                <p>Monto a retirar</p>
+                                                                <input class="form-control" type="text" name="cantidad" style="background-color: transparent; border: 2px solid #00ff88; border-radius: 20px; padding: 10px ; box-shadow: inset 0px 0px 10px #00ff88; font-size: 20px; ">
+                                                            </div>
+                                                            <div class="col-12">
+                                                                <a class="nav-link" href="#" style="color: black; background-color: #00ff88; border-radius: 30px; padding: 10px; margin-top: 20px;">Confirmar</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                </div>
+                                                </div>
+                                                </div>
+                                            </div>
+                                    
                                     </div>
                                 </div>
-                                <div class="row" style="text-align: center; color: white; margin-top: 30px; border-bottom: 2px solid #00ff88;">
+                                <div class="row" style="text-align: center; color: white; margin-top: 30px; border-bottom: 2px solid #00ff88; padding-bottom: 20px;">
                                     <div class="col">
-                                        <h3>Balance Disponible</h3>
-                                        <h3 style="border: 2px solid #00ff88; border-radius: 20px; padding: 20px ; box-shadow: inset 0px 0px 10px #00ff88; font-size: 30px; ">Bs.s 1000,00</h3>
+                                        <h3 style="font-size: 20px;"><i class="bi bi-coin" style="margin-right: 7px;"></i>Balance Disponible</h3>
+                                        <h3 style="border: 2px solid #00ff88; border-radius: 15px; padding: 10px ; box-shadow: inset 0px 0px 10px #00ff88; font-size: 20px; ">Bs.s 1000,00</h3>
 
                                     </div>
                                     <div class="col">
-                                        <h3>Membresía Activa</h3>
-                                        <h3 style="border: 2px solid #00ff88; border-radius: 20px; padding: 20px ; box-shadow: inset 0px 0px 10px #00ff88; font-size: 30px; ">Premium</h3>
+                                        <h3 style="font-size: 20px;"><i class="bi bi-star-fill" style="margin-right: 7px;"></i>Membresía Activa</h3>
+                                        <h3 style="border: 2px solid #00ff88; border-radius: 15px; padding: 10px ; box-shadow: inset 0px 0px 10px #00ff88; font-size: 20px; ">Premium</h3>
 
                                     </div>
                                 </div>
                                 <div class="row" style="text-align: center; color: white; margin: 20px; ">
                                     <div class="col" >
-                                        <h3>Refiere a un amigo</h1>
+                                        <h3 style="font-size: 20px;"><i class="bi bi-people-fill" style="margin-right: 7px;"></i>Refiere a un amigo</h1>
                                     </div>
                                 </div>
-                                <div class="row" style="padding-bottom: 15px; border-bottom: 2px solid #00ff88;">
-                                    <div class="col" >
+                                <div class="row" style="padding-bottom: 15px; border-bottom: 2px solid #00ff88; padding-bottom: 20px;">
+                                    <div class="col-12" >
                                         <input class="form-control" type="text" style="background-color: transparent; border: 2px solid #00ff88; border-radius: 15px; text-align: center; color: white; padding: 10px ; box-shadow: inset 0px 0px 5px #00ff88;" value="https://fortunaroyal.com/register?r=MIC17D251C4C0EB7" aria-label="Disabled input example" disabled readonly>
+                                    </div>
+                                    <div class="col-12" style="text-align: center; color: #ffffff;">
+                                        <i class="bi bi-clipboard-check-fill" style="font-size: 25px;"></i>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="row" style="color:white ; text-align: center;">
                             <div class="col">
-                                <h2>Datos de pago</h2>
+                                <h3 style="font-size: 20px;"><i class="bi bi-person-fill-check" style="margin-right: 7px;"></i>Datos de pago</h3>
                             </div>
                         </div>
                         <div class="row" style="padding-bottom: 20px;">
-                            <div class="col-sm-6 col-md-6 col-lg-6 col-12" style="color: white; padding: 10px; text-align: center; ">
+                            <div class="col-sm-12 col-md-12 col-lg-6 col-12" style="color: white; padding: 10px; text-align: center; ">
                                 billetera USDT (BSC20)
                             </div>
-                            <div class="col-sm-6 col-md-6 col-lg-6 col-12" style="color: white; padding: 10px; text-align: center; ">
+                            <div class="col-sm-12 col-md-12 col-lg-6 col-12" style="color: white; padding: 10px; text-align: center; ">
                                 0x9f06461e72726608c4ca8b575c2bc00cc095006c
                             </div>
                         </div>
                         <div class="row" style="padding-bottom: 20px;">
-                            <div class="col-sm-6 col-md-6 col-lg-6 col-12" style="color: #00ff88; padding: 10px; text-align: center; ">
+                            <div class="col-sm-12 col-md-12 col-lg-6 col-12" style="color: #00ff88; padding: 10px; text-align: center; ">
                                 Saldo Disponible
                             </div>
-                            <div class="col-sm-6 col-md-6 col-lg-6 col-12" style="color: #00ff88; padding: 10px; text-align: center; ">
+                            <div class="col-sm-12 col-md-12 col-lg-6 col-12" style="color: #00ff88; padding: 10px; text-align: center; ">
                                 Bs.s 1000,00
                             </div>
                         </div>
                         <div class="row" style="padding-bottom: 20px;">
                             <div class="col" style="border: 2px solid #00ff88; padding: 10px; color: #ffffff; text-align: center; border-radius: 15px; margin-left: 45px; margin-right: 45px; box-shadow: inset 0px 0px 10px #00ff88;  ">
-                                 <!-- Button trigger modal -->
-                                 <a class="nav-link"  href="" type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop1">Retirar</a>
-                                
-                                 <!-- Modal -->
-                                 <div class="modal fade" id="staticBackdrop1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel1" aria-hidden="true">
-                                     <div class="modal-dialog">
-                                     <div class="modal-content" style="background-color: #333333;">
-                                         <div class="modal-header" style="border-bottom: 1px solid #00ff88;">
-                                         <h1 class="modal-title fs-5" id="staticBackdropLabel1">Modal title</h1>
-                                         <img src="./imagenes/Cerrar.png" width="30px" alt="" type="button" data-bs-dismiss="modal" aria-label="Close">
-                                         </div>
-                                         <div class="modal-body">
-                                         ..
-                                         </div>
-                                     </div>
-                                     </div>
-                                 </div>
+                                <a class="nav-link" aria-current="page" href="#" type="button"  data-bs-toggle="modal" data-bs-target="#exampleModal1"><i class="bi bi-box-arrow-in-right" style="margin-right: 7px;"></i>Retiro</a>
+                                    
+
+                                <!-- Modal -->
+                                <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog" >
+                                    <div class="modal-content" style="background-color: #333333; border-radius: 40px; color: #ffffff;">
+                                        <div class="modal-header" style="border-bottom: 2px #00ff88 solid; ">
+                                        <h1 class="modal-title fs-4" id="exampleModalLabel" >Retiro</h1>
+                                        <img src="./imagenes/Cerrar.png" alt="" width="40px" type="button" data-bs-dismiss="modal" aria-label="Close">
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="container">
+                                                <div class="row" style="padding-top: 10px;">
+                                                  
+                                                    <div class="col-12">
+                                                        <p style="color: #00ff88;">Monto Disponible: Bs.s 1000,00</p>
+                                                    </div>
+                                                    <div class="col-12" style="padding-top: 10px;">
+                                                        <p>Wallet</p>
+                                                        <input class="form-control" type="text" name="cantidad" style="background-color: transparent; border: 2px solid #00ff88; border-radius: 20px; padding: 10px ; box-shadow: inset 0px 0px 10px #00ff88; font-size: 20px; ">
+                                                    </div>
+                                                    <div class="col-12" style="padding-top: 10px;">
+                                                        <p>Monto a retirar</p>
+                                                        <input class="form-control" type="text" name="cantidad" style="background-color: transparent; border: 2px solid #00ff88; border-radius: 20px; padding: 10px ; box-shadow: inset 0px 0px 10px #00ff88; font-size: 20px; ">
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <a class="nav-link" href="#" style="color: black; background-color: #00ff88; border-radius: 30px; padding: 10px; margin-top: 20px;">Confirmar</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                        </div>
+                                        </div>
+                                        </div>
+                                    </div>
                             </div>
                         </div>
                         <div class="row" style="color:white ; text-align: center; margin-left: 20px; margin-right: 20px; padding-bottom: 30px; padding-top: 15px;">
