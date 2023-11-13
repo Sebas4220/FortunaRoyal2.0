@@ -9,7 +9,7 @@
 body{
     
     background-color: #ffffff;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Rubik', serif;
 }
     
     
@@ -59,33 +59,7 @@ background-color: #333333;
 
 
 
-.dropdown-menu:active{
 
-    border: none;
-    box-shadow: 0px 0px 7px #00ff88;
-    background: none;
-}
-
-.dropdown-menu:focus{
-
-    border: none;
-    box-shadow: 0px 0px 7px #00ff88;
-    background: none;
-}
-
-.dropdown-menu::after{
-
-    border: none;
-    box-shadow: 0px 0px 7px #00ff88;
-    background: none;
-}
-
-.dropdown-menu::selection{
-
-    border: none;
-    box-shadow: 0px 0px 7px #00ff88;
-    background: none;
-}
 
 .dropdown-item{
 
@@ -107,11 +81,13 @@ border-radius: 40px;
 
 color: white;
 padding: 10px;
+
 }
 
 #nav-link i{
 
 padding-right: 7px;
+
 
 }
   
@@ -158,7 +134,7 @@ text-align: center;
     color: black;
     margin-left: 10px;
     padding: 10px;
-
+    
  
 }
 
